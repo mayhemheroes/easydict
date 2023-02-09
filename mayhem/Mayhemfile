@@ -1,0 +1,7 @@
+project: easydict
+target: dict-convert-fuzz
+
+cmds:
+  - cmd: /src/mayhem/fuzz_dict_convert.py
+    libfuzzer: true
+    timeout: 10
